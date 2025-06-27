@@ -47,7 +47,7 @@ p{
   font-size: 1rem;
   padding-inline-start: clamp(0.75rem, 2vw, 2rem);
   padding-inline-end: clamp(0.75rem, 2vw, 2rem);
-  padding-bottom: 2rem;
+  padding-block-end: 2rem;
   color:var(--pcolor);
 }
 
