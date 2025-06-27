@@ -1,5 +1,15 @@
+:root {
+
+  --bgcolormain: hsl(0, 0%, 100%);
+  --h1color: hsl(218, 44%, 22%);
+  --pcolor: hsl(216, 15%, 48%);
+  --bodybgcolor: hsl(212, 45%, 89%);
+}
+
+
+
 body{
-  background: hsl(212, 45%, 89%);
+  background: var(--bodybgcolor);
   margin: calc(1rem);
   display: flex;
   justify-content: center;
@@ -14,7 +24,7 @@ body{
 }
 
 .container{
-  background: hsl(0, 0%, 100%);
+  background: var(bgcolormain);
   border-radius: 1rem;
   padding: calc(1rem);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -27,6 +37,7 @@ body{
 }
 
 h1{
+  color: var(--h1color);
   padding-inline-start: 1rem;
   padding-inline-end: 1rem;
 }
@@ -35,7 +46,7 @@ p{
   font-size: 1rem;
   padding-inline-start: 2rem;
   padding-inline-end: 2rem;
-  color:hsl(216, 15%, 48%);
+  color:var(--pcolor);
 }
 
 @media screen and (min-width:46.875em){
@@ -46,7 +57,7 @@ p{
 }
 
 .text{
-  width: 576px;
+  width: 36rem;
 }
 
 h1{
