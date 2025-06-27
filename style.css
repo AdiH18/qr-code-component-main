@@ -1,0 +1,63 @@
+body{
+  background: hsl(212, 45%, 89%);
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.qrcode{
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.container{
+  background: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  padding: 18px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text{
+  font-family: "outfit";
+  text-align: center;
+
+}
+
+h1{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+p{
+  font-size: 15px;
+  padding-left: 35px;
+  padding-right: 35px;
+  color:hsl(216, 15%, 48%);
+}
+
+@media screen and (min-width:750px){
+    
+.container{
+  display: inline-block;
+  align-items: center;
+}
+
+.text{
+  width: 576px;
+}
+
+h1{
+  
+  font-size: 40px;
+  padding-left: 55px;
+  padding-right: 55px;
+
+}
+
+p{
+  font-size: 30px;
+}
+}  
