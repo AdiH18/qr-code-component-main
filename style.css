@@ -27,7 +27,7 @@ body{
 .container{
   transform: scale(0.5);
   background: var(--bgcolormain);
-  border-radius: 1.5rem;
+  border-radius: 2rem;
   padding: clamp(0.75rem, 2vw, 2rem);
   box-shadow: var(--box-shadow-default)
 }
