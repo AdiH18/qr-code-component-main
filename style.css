@@ -25,6 +25,8 @@ body{
 }
 
 .container{
+  transform: scale(0.5);
+  transform-origin: center;
   background: var(--bgcolormain);
   border-radius: 1rem;
   padding: clamp(0.75rem, 2vw, 2rem);
@@ -53,6 +55,8 @@ p{
 @media screen and (min-width:46.875em){
     
 .container{
+  transform: scale(0.5);
+  transform-origin: center;
   display: inline-block;
   align-items: center;
 }
