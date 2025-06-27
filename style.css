@@ -4,13 +4,14 @@
   --h1color: hsl(218, 44%, 22%);
   --pcolor: hsl(216, 15%, 48%);
   --bodybgcolor: hsl(212, 45%, 89%);
+  --box-shadow-default: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 
 
 body{
   background: var(--bodybgcolor);
-  margin: calc(1rem);
+  margin: clamp(0.75rem, 2vw, 2rem);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,8 +27,8 @@ body{
 .container{
   background: var(--bgcolormain);
   border-radius: 1rem;
-  padding: calc(1rem);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: clamp(0.75rem, 2vw, 2rem);
+  box-shadow: var(--box-shadow-default)
 }
 
 .text{
@@ -38,14 +39,14 @@ body{
 
 h1{
   color: var(--h1color);
-  padding-inline-start: 1rem;
-  padding-inline-end: 1rem;
+  padding-inline-start: clamp(0.75rem, 2vw, 2rem);
+  padding-inline-end: clamp(0.75rem, 2vw, 2rem);
 }
 
 p{
   font-size: 1rem;
-  padding-inline-start: 2rem;
-  padding-inline-end: 2rem;
+  padding-inline-start: clamp(0.75rem, 2vw, 2rem);
+  padding-inline-end: clamp(0.75rem, 2vw, 2rem);
   color:var(--pcolor);
 }
 
@@ -63,8 +64,8 @@ p{
 h1{
   
   font-size: 2.5rem;
-  padding-inline-start: 3rem;
-  padding-inline-end: 3rem;
+  padding-inline-start: clamp(0.75rem, 2vw, 2rem);
+  padding-inline-end: clamp(0.75rem, 2vw, 2rem);
 
 }
 
