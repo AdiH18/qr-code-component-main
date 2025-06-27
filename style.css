@@ -11,7 +11,6 @@
 
 body{
   background: var(--bodybgcolor);
-  margin: clamp(0.75rem, 2vw, 2rem);
   display: flex;
   justify-content: center;
   align-items: center;
